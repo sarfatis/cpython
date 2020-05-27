@@ -619,8 +619,8 @@ class Counter(dict):
 
         '''
         # The regular dict.update() operation makes no sense here because the
-        # replace behavior results in the some of original untouched counts
-        # being mixed-in with all of the other counts for a mismash that
+        # replace behavior results in some of the original untouched counts
+        # being mixed-in with all of the other counts for a mishmash that
         # doesn't have a straight-forward interpretation in most counting
         # contexts.  Instead, we implement straight-addition.  Both the inputs
         # and outputs are allowed to contain zero and negative counts.
